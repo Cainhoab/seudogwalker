@@ -50,8 +50,10 @@ body {
 }
 
 .btn-success:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
+    filter: brightness(90%);
     box-shadow: 0 0.5rem 1rem rgba(25, 135, 84, 0.3);
+
 }
 
 /* Estilo para os ícones de check na seção About */
