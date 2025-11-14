@@ -51,7 +51,14 @@ body {
 
 .btn-success:hover {
     transform: translateY(-2px);
-    box-shadow: 0 0.5rem 1rem rgba(25, 135, 84, 0.3);
+    box-shadow: 0 0.5rem 1rem rgb(53, 255, 221);
+}
+
+/* 🔥 Botão do HERO com cor personalizada */
+.btn-hero {
+    background-color: #34ffd3 !important;
+    border-color: #79ff50 !important;
+    color: #1bddeb !important;
 }
 
 /* Estilo para os ícones de check na seção About */
@@ -87,7 +94,7 @@ body {
 
 /* Estilo para formulário */
 .form-control:focus {
-    border-color: #871919;
+    border-color: #32e74d;
     box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
 }
 
@@ -108,10 +115,18 @@ body {
 
 /* Estilo para depoimentos */
 .border-start.border-success {
-    border-left: 4px solid #871919 !important;
+    border-left: 4px solid #39e759 !important;
 }
 
 /* Footer customizado */
 footer {
-    background: linear-gradient(135deg, #a5a0a05b 0%, #a5a0a05b 100%);
+    background: linear-gradient(135deg, #dddedf 100%, #dddedf 100%);
+}
+
+/* 🔥 Subtítulo contextualizador */
+.subtitulo-contexto {
+    font-style: italic;
+    color: #6c757d;
+    margin-top: -10px;
+    display: block;
 }
